@@ -1,0 +1,63 @@
+* {
+    margin: 0; /* إزالة الهوامش الافتراضية */
+    padding: 0; /* إزالة الحشو الافتراضي */
+}
+
+body {
+    font-family: 'Inter', sans-serif; /* تعيين خط الصفحة إلى Inter */
+    background-color: #F5F7FFD9; /* تعيين لون الخلفية */
+}
+
+/* بداية صفحة الفهرس */
+
+/* بداية قسم الهيدر */
+header h2 {
+    font-size: 45px; /* حجم خط العنوان */
+    margin-bottom: 20px; /* المسافة السفلية */
+}
+
+header img {
+    width: 70%; /* عرض الصورة */
+    margin-top: 40px; /* المسافة العلوية */
+    border-radius: 30px; /* زوايا مدورة للصورة */
+}
+
+/* بداية استعلام الوسائط لقسم الهيدر */
+@media only screen and (max-width: 768px) {
+    header img {
+        display: block; /* عرض الصورة ككتلة */
+        margin: 20px auto; /* محاذاة الصورة في المنتصف */
+    }
+}
+/* نهاية استعلام الوسائط لقسم الهيدر */
+
+/* نهاية قسم الهيدر */
+
+/* نهاية صفحة الفهرس */
+
+/* بداية صفحة التسجيل */
+.create img {
+    width: 90%; /* عرض الصورة */
+    height: 520px; /* ارتفاع الصورة */
+    border-radius: 10px; /* زوايا مدورة للصورة */
+}
+
+.create .box-header h5 {
+    line-height: 1.5; /* ارتفاع السطر للنص */
+}
+
+.form-control {
+    display: inline-block; /* عرض الحقول ككتل متجاورة */
+    width: 96%; /* عرض الحقول */
+    padding: 30px 10px; /* الحشو الداخلي */
+    text-indent: 40px; /* تباعد النص داخل الحقل */
+}
+
+.create i {
+    position: absolute; /* تحديد موضع الأيقونة بشكل مطلق */
+    margin-top: 20px; /* المسافة العلوية للأيقونة */
+    margin-left: 15px; /* المسافة اليسرى للأيقونة */
+    font-size: 22px; /* حجم الأيقونة */
+    color: blue; /* لون الأيقونة */
+}
+/* نهاية صفحة التسجيل */
